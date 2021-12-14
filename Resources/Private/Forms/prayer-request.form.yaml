@@ -9,17 +9,16 @@ finishers:
   -
     options:
       subject: 'A prayer request from a website visitor.'
-      recipientAddress: jfgodfrey@gmail.com
-      recipientName: 'John F. Godfrey, Pastor'
       senderAddress: '{email-1}'
       senderName: '{text-1}  {text-2}'
-      replyToAddress: '{email-1}'
-      carbonCopyAddress: ''
-      blindCarbonCopyAddress: ''
       format: html
       attachUploads: true
       translation:
-        language: ''
+        language: default
+      recipients:
+        jfgodfrey@gmail.com: 'John F. Godfrey, Pastor'
+      replyToRecipients:
+        '{email-1}': ''
     identifier: EmailToReceiver
   -
     options:
@@ -60,6 +59,10 @@ renderables:
                     numbersOfColumnsToUse: '12'
                   xs:
                     numbersOfColumnsToUse: '12'
+                  xxl:
+                    numbersOfColumnsToUse: '6'
+                  xl:
+                    numbersOfColumnsToUse: '6'
             validators:
               -
                 identifier: NotEmpty
@@ -82,6 +85,10 @@ renderables:
                     numbersOfColumnsToUse: '12'
                   xs:
                     numbersOfColumnsToUse: '12'
+                  xl:
+                    numbersOfColumnsToUse: '6'
+                  xxl:
+                    numbersOfColumnsToUse: '6'
             validators:
               -
                 identifier: NotEmpty
@@ -104,6 +111,10 @@ renderables:
                     numbersOfColumnsToUse: '12'
                   xs:
                     numbersOfColumnsToUse: '12'
+                  xl:
+                    numbersOfColumnsToUse: '6'
+                  xxl:
+                    numbersOfColumnsToUse: '6'
               validationErrorMessages:
                 -
                   code: 1221560910
@@ -141,6 +152,10 @@ renderables:
                     numbersOfColumnsToUse: '12'
                   xs:
                     numbersOfColumnsToUse: '12'
+                  xl:
+                    numbersOfColumnsToUse: '6'
+                  xxl:
+                    numbersOfColumnsToUse: '6'
             validators:
               -
                 identifier: NotEmpty
@@ -162,6 +177,10 @@ renderables:
                   sm:
                     numbersOfColumnsToUse: '12'
                   xs:
+                    numbersOfColumnsToUse: '12'
+                  xl:
+                    numbersOfColumnsToUse: '12'
+                  xxl:
                     numbersOfColumnsToUse: '12'
             validators:
               -
