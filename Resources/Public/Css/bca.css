@@ -74,6 +74,15 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     color: #f6f9ff;
 }
 
+/***  Breadcrumb - align right ***/
+ol.breadcrumb {
+    justify-content: flex-end;
+}
+
+.breadcrumb-section {
+    background-color: #f1f1e6;
+}
+
 /*********************/
 /***** Home Page *****/
 /*********************/
@@ -162,13 +171,20 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     height: auto;
 }
 
+.mb-3 {
+    margin-bottom: 0 !important;
+}
+
+/**** Prayer Request Detail View ****/
+#p81 h1, #p81 h2, #p81 h3, #p81 h4, #p81 h5, #p81 h6 {
+    color: #ffffff;
+}
+
 #p81 .page-item:first-child .page-link,
-#p83 .page-item:first-child .page-link {
+#p83 .page-item:first-child .page-link,
+#p81 .page-item:last-child .page-link,
+#p83 .page-item:last-child .page-link {
     border-top-left-radius: 0.25rem;
     border-bottom-left-radius: 0.25rem;
     border-color: #fff;
-}
-
-.mb-3 {
-    margin-bottom: 0 !important;
 }
