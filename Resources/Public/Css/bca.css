@@ -141,7 +141,6 @@ ol.breadcrumb {
     color: #212121;
     background-color: #f6f9ff;
     border: none;
-    /*flex: 0 0 32%;*/
 }
 
 @media (max-width: 767px) {
@@ -158,6 +157,10 @@ ol.breadcrumb {
 
 @media (min-width: 1200px) {
     .list-group-item {
+        flex: 0 0 32%;
+    }
+    .list-group:after {
+        content: ' ';
         flex: 0 0 32%;
     }
 }
