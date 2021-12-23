@@ -8,6 +8,7 @@ body, .body-bg {
   background-color:#fff;
 }
 
+/* Paddings to avoid content slipping under the floating menu */
 @media (min-width: 300px) {
     body, .body-bg { 
         padding:35px 0 0 0;
@@ -34,6 +35,12 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     color: #213e6d;
 }
 
+/* Service times */
+#p62 h1 {
+    color: #ffffff;
+}
+
+/* h3 headers in News */
 .news h3 a {
     color: #213e6d !important;
 }
@@ -48,6 +55,10 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 .footer-copyright {
     color:#4F5153;
 }
+
+/*********************/
+/*** Misc. Layouts ***/
+/*********************/
 
 .frame-layout-default {
     padding: 5.5em 0;
