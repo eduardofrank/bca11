@@ -36,8 +36,19 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 }
 
 /* Service times */
-#p62 h1 {
+#p62 h1.element-header.text-center {
     color: #ffffff;
+}
+
+#p62 .body-bg {
+    background-color: #213e6d;
+    color: #f6f9ff;
+}
+
+#p62 thead, #p62 tbody, #p62 tfoot, #p62 tr, #p62 td, #p62 th {
+    border-color: inherit;
+    border-style: solid;
+    color: #f6f9ff;
 }
 
 /* h3 headers in News */
@@ -71,17 +82,6 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 .btn, .cc-btn {
     color: #f1f1e6;
     border-radius: 0.5rem;
-}
-
-#p62 .body-bg {
-    background-color: #213e6d;
-    color: #f6f9ff;
-}
-
-#p62 thead, #p62 tbody, #p62 tfoot, #p62 tr, #p62 td, #p62 th {
-    border-color: inherit;
-    border-style: solid;
-    color: #f6f9ff;
 }
 
 /***  Breadcrumb - align right ***/
